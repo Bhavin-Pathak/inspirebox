@@ -2,7 +2,7 @@
 
 A beautiful, responsive Random Quote Generator built with **React**, **Tailwind CSS**, and **Docker**. Features stunning neon light effects and glassmorphism design.
 
-![Quote Generator Preview](https://via.placeholder.com/800x400/4c1d95/ffffff?text=Random+Quote+Generator)
+![Quote Generator Preview](/home/bhavinpathak/Projects/Learning/inspirebox/Screenshot/image.png)
 
 ## ✨ Features
 
