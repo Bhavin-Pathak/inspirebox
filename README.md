@@ -1,4 +1,4 @@
-# Random Quote Generator 🌟
+# Inspirebox 🌟
 
 A beautiful, responsive Random Quote Generator built with **React**, **Tailwind CSS**, and **Docker**. Features stunning neon light effects and glassmorphism design.
 
