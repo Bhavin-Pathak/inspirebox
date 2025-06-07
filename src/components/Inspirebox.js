@@ -151,10 +151,10 @@ const Inspirebox = () => {
           {/* Quote Content */}
           <div className="text-center mb-8">
             <div className="relative">
-              <div className="text-4xl sm:text-6xl text-white/30 absolute -top-4 -left-2 sm:-left-4 font-serif">
+              <div className="text-4xl sm:text-6xl text-white/40 absolute -top-4 -left-2 sm:-left-4 font-serif">
                 "
               </div>
-              <div className="text-4xl sm:text-6xl text-white/30 absolute -bottom-8 -right-2 sm:-right-4 font-serif">
+              <div className="text-4xl sm:text-6xl text-white/40 absolute -bottom-8 -right-2 sm:-right-4 font-serif">
                 "
               </div>
 
@@ -177,7 +177,7 @@ const Inspirebox = () => {
               }`}
             >
               <p className="text-base sm:text-lg text-white/80 font-medium italic">
-                — {quote?.author}
+                {quote?.author}
               </p>
             </div>
           </div>
@@ -190,8 +190,8 @@ const Inspirebox = () => {
             >
               {copied ? (
                 <>
-                  <Check className="w-5 h-5 text-green-300" />
-                  <span>Copied!</span>
+                  <Check className="w-5 h-5 text-green-500" />
+                  <span>Quote Copied!</span>
                 </>
               ) : (
                 <>
