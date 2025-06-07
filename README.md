@@ -21,8 +21,8 @@ A beautiful, responsive Random Quote Generator built with **React**, **Tailwind 
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd random-quote-generator
+git clone https://github.com/Bhavin-Pathak/inspirebox.git
+cd inspirebox
 
 # Build and run with Docker Compose
 docker-compose up --build
@@ -45,13 +45,13 @@ npm start
 ## 📁 Project Structure
 
 ```
-random-quote-generator/
+inspirebox/
 ├── public/
 │   ├── index.html
 │   └── manifest.json
 ├── src/
 │   ├── components/
-│   │   └── RandomQuoteGenerator.js
+│   │   └── inspirebox.js
 │   ├── App.js
 │   ├── App.css
 │   ├── index.js
@@ -71,7 +71,7 @@ random-quote-generator/
 - **Icons**: Lucide React
 - **API**: DummyJSON Quotes API
 - **Containerization**: Docker, Docker Compose
-- **Web Server**: Nginx (production)
+- **Web Server**: Nginx (for production)
 - **Build Tool**: Create React App
 
 ## 🎨 Design Features
@@ -90,7 +90,7 @@ random-quote-generator/
 
 ### Interactive Elements
 
-- Hover animations on copy button
+- Hover animations on copy button and new quote button
 - Scale and glow effects
 - Smooth state transitions
 
@@ -108,7 +108,7 @@ No environment variables required - the app fetches quotes directly from the pub
 
 ### Customization
 
-Edit `src/components/RandomQuoteGenerator.js` to:
+Edit `src/components/inspirebox.js` to:
 
 - Change color schemes
 - Modify animations
@@ -175,6 +175,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Made with ❤️ and lots of ☕**
+**Made with ReactJS**
 
-_Refresh the page for a new dose of inspiration!_ ✨
+_Refresh the page and press new quats button for a new dose of inspiration!_ ✨
