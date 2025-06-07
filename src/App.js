@@ -1,10 +1,10 @@
-import RandomQuoteGenerator from "./components/RandomQuoteGenerator";
+import Inspirebox from "./components/Inspirebox";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <RandomQuoteGenerator />
+      <Inspirebox />
     </div>
   );
 }
