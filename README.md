@@ -49,9 +49,6 @@ inspirebox/
 │   ├── App.css
 │   ├── index.js
 │   └── index.css
-├── Dockerfile
-├── docker-compose.yml
-├── nginx.conf
 ├── package.json
 ├── tailwind.config.js
 ├── postcss.config.js
