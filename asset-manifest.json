@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/inspirebox/static/css/main.711e8729.css",
+    "main.js": "/inspirebox/static/js/main.52358e81.js",
+    "static/js/453.4ff11711.chunk.js": "/inspirebox/static/js/453.4ff11711.chunk.js",
+    "index.html": "/inspirebox/index.html",
+    "main.711e8729.css.map": "/inspirebox/static/css/main.711e8729.css.map",
+    "main.52358e81.js.map": "/inspirebox/static/js/main.52358e81.js.map",
+    "453.4ff11711.chunk.js.map": "/inspirebox/static/js/453.4ff11711.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.711e8729.css",
+    "static/js/main.52358e81.js"
+  ]
+}
