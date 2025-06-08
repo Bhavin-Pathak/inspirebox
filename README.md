@@ -1,6 +1,6 @@
 # Inspirebox 🌟
 
-A beautiful, responsive Random Quote Generator built with **React**, **Tailwind CSS**, and **Docker**. Features stunning neon light effects and glassmorphism design.
+A beautiful, responsive Random Quote Generator built with **React**, **Tailwind CSS** Features stunning neon light effects and glassmorphism design.
 
 ![Preview](preview/image.png)
 
@@ -12,25 +12,18 @@ A beautiful, responsive Random Quote Generator built with **React**, **Tailwind 
 - 🔄 **Fresh Quotes on Refresh** - New inspirational quote every page reload
 - 📋 **Copy to Clipboard** - One-click quote copying functionality
 - 🎭 **Smooth Animations** - Fade-in effects and hover interactions
-- 🐳 **Docker Ready** - Complete containerization setup
-- ⚡ **Fast & Optimized** - Production-ready with Nginx
 
 ## 🚀 Quick Start
 
-### Option 1: Docker (Recommended)
+### Local Setup
 
 ```bash
 # Clone the repository
 git clone https://github.com/Bhavin-Pathak/inspirebox.git
 cd inspirebox
-
-# Build and run with Docker Compose
-docker-compose up --build
-
-# Access the app at http://localhost:3000
 ```
 
-### Option 2: Local Development
+### Install Packages And Start React-app
 
 ```bash
 # Install dependencies
@@ -70,8 +63,6 @@ inspirebox/
 - **Frontend**: React 18, Tailwind CSS
 - **Icons**: Lucide React
 - **API**: DummyJSON Quotes API
-- **Containerization**: Docker, Docker Compose
-- **Web Server**: Nginx (for production)
 - **Build Tool**: Create React App
 
 ## 🎨 Design Features
@@ -114,28 +105,6 @@ Edit `src/components/inspirebox.js` to:
 - Modify animations
 - Add new features
 - Customize API endpoints
-
-## 🐳 Docker Configuration
-
-### Development
-
-```bash
-docker-compose up
-```
-
-### Production
-
-```bash
-docker-compose up --build -d
-```
-
-The app runs on **port 3000** and includes:
-
-- Multi-stage Docker build
-- Nginx for static file serving
-- Gzip compression
-- Security headers
-- Production optimizations
 
 ## 🔄 API Integration
 
